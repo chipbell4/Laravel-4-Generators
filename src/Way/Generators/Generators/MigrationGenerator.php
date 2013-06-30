@@ -57,6 +57,8 @@ class MigrationGenerator extends Generator {
     */
     protected function parseMigrationName($name)
     {
+	     // TODO: This should change to reflect SPINEN names
+
         // create_users_table
         // add_user_id_to_posts_table
         $pieces = explode('_', $name);
